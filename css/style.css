@@ -1,0 +1,481 @@
+img { max-width:100%;}
+
+body{
+    background-image:url('../img/back.png');
+    background-color: white;
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment : fixed;
+  }
+
+.container{
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:brown !important;
+      }
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 10px !important;
+    z-index: 9999;
+
+}
+
+.navbar-brand img{
+    height: 80px;
+}
+
+.navbar-nav .nav-link{
+    color: brown !important;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: rgb(255, 221, 149);
+}
+
+.navbar-toggler-icon{
+    fill: brown !important;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link .navbar-nav{
+    color: brown;
+}
+
+.main{
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.main-sumaho{
+    display:none
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar{
+        position: sticky;
+        top: 0;
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: start;
+    }
+
+    .main{
+        height: 100%;
+        padding-bottom: 5%;
+        display:none
+    }
+    
+    .main-sumaho{
+        height: 100%;
+        padding-bottom: 5%;
+        display: flex;
+    }
+}
+
+
+
+
+/*web概要*/
+
+.webtitleText{
+    padding-top: 3%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.website{
+    /*background-color: chocolate;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.website1{
+    height: 350px;
+    width: 350px;
+    margin-left: 1%;
+}
+
+.website1 img{
+    border-radius:5px 30px 5px 30px;
+    padding: 3%;
+}
+
+.website2{
+    height: 350px;
+    width: 350px;
+}
+
+.website2 img{
+    border-radius:5px 30px 5px 30px;
+    padding: 3%;
+}
+
+.website3{
+    height: 350px;
+    width: 350px;
+}
+
+.website3 img{
+    border-radius:5px 30px 5px 30px;
+    padding: 3%;
+}
+
+.website4{
+    height: 350px;
+    width: 350px;
+    margin-right: 1%;
+}
+
+.website4 img{
+    border-radius:5px 30px 5px 30px;
+    padding: 3%;
+}
+
+@media (max-width:1199.98px) {
+
+    .webtitleText{
+        padding-top: 3%;
+        padding-bottom: 0.9%;
+        font-size: 30px;
+    }
+    
+    .website{
+        /*background-color: chocolate;*/
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10%;
+        flex-wrap: wrap;
+    }
+    
+    
+    .website1 img{
+        border-radius:5px 30px 5px 30px;
+        padding: 3%;
+    }
+    
+    
+    .website2 img{
+        border-radius:5px 30px 5px 30px;
+        padding: 3%;
+    }
+    
+    
+    .website3 img{
+        border-radius:5px 30px 5px 30px;
+        padding: 3%;
+    }
+
+    
+    .website4 img{
+        border-radius:5px 30px 5px 30px;
+        padding: 3%;
+    }
+
+}
+
+/*MMD概要*/
+
+.MMDtitleText{
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.mmd{
+    /*background-color: aquamarine;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mmdimg img{
+    width: 1200px;
+    border-radius:20px;
+    padding: 1.5%; 
+}
+
+.mmdtextbox{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    margin-right: 1%;
+    padding: 1.5%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.mmdtext{
+    font-size :18px;
+}
+
+.mmdHTMLs{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1199.98px) {
+    .mmd{
+        /*background-color: aquamarine;*/
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .mmdtext{
+        font-size :14px;
+        margin: 20px;
+    }
+}
+
+/*イラスト概要*/
+
+.ILLUSTtitleText{
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.illust{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.illustimg img{
+    width: 1200px;
+    border-radius:20px;
+    padding: 1.5%; 
+}
+
+.illusttextbox{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    margin-left: 1%;
+    padding: 2%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.illusttext{
+    font-size: 18px;
+}
+
+.illustHTMLs{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1199.98px) {
+    .illust{
+        /*background-color: aquamarine;*/
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .illusttext{
+        font-size :14px;
+        margin: 20px;
+    }
+}
+
+/*Live2D概要*/
+
+.LIVE2DtitleText{
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.live2d{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.live2dimg img{
+    width: 1200px;
+    border-radius:20px;
+    padding: 1.5%; 
+}
+
+.live2dtextbox{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    margin-left: 1%;
+    padding: 2%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.live2dtext{
+    font-size: 18px;
+}
+
+.live2dHTMLs{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1199.98px) {
+    .live2d{
+        /*background-color: aquamarine;*/
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .live2dtext{
+        font-size :14px;
+        margin: 20px;
+    }
+}
+
+/*ロゴ概要*/
+
+.logoTitletext{
+    padding-top: 0.9%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.logoimg img{
+    height: 500px;
+    border-radius:20px;
+    padding: 1.5%; 
+}
+
+.logotextbox{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    margin-left: 1%;
+    padding: 2%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.logotext{
+    font-size: 18px;
+}
+
+.logoHTMLs{
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1199.98px) {
+    .logo{
+        /*background-color: aquamarine;*/
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .logoimg img{
+        height: 100%;
+        border-radius:20px;
+        padding: 1%;
+    }
+
+    .logotext{
+        font-size :14px;
+        margin: 20px;
+    }
+}
+
+/*そのほか*/
+
+.othertitleText{
+    padding-top: 4%;
+    padding-bottom: 0.9%;
+    font-size: 30px;
+}
+
+.other{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.otherimg img{
+    width: 1200px;
+    border-radius:20px;
+    padding: 1.5%; 
+}
+
+.othertextbox{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    margin-left: 1%;
+    padding: 2%;
+    width: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.otherdtext{
+    font-size: 18px;
+}
+
+.otherHTMLs{
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1199.98px) {
+    .other{
+        /*background-color: aquamarine;*/
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .othertext{
+        font-size :14px;
+        margin: 20px;
+    }
+}
+
+.huta{
+     margin-top: 200px;
+     height: 200px;
+     color: rgb(43, 10, 5);
+}

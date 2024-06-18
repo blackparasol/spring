@@ -1,0 +1,143 @@
+img { max-width:100%;}
+
+.body .html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* スクロールバーを非表示にする */
+}
+
+body{
+    background-image:url('../img/back.png');
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment : fixed;
+  }
+
+.container{
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:brown !important;
+      }
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+    justify-content: space-between;
+    background-color: pink;
+    padding: 10px !important;
+}
+
+.navbar-brand img{
+    height: 80px;
+}
+
+.navbar-nav .nav-link{
+    color: brown !important;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: rgb(255, 221, 149);
+}
+
+.navbar-toggler-icon{
+    fill: brown !important;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link .navbar-nav{
+    color: brown;
+}
+
+.main{
+    height: 100%;
+    padding-bottom: 5%;
+}
+
+.main-sumaho{
+    display:none
+}
+
+@media (max-width: 991.98px) {
+
+    .navbar{
+        position: sticky;
+        top: 0;
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: start;
+    }
+
+    .main{
+        height: 100%;
+        padding-bottom: 5%;
+        display:none
+    }
+    
+    .main-sumaho{
+        height: 100%;
+        padding-bottom: 5%;
+        display: flex;
+    }
+}
+
+.textbox{
+    font-size: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* 要素の間を均等に配置 */
+    flex-direction: row;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+/* Style the iframe to fit inside the video container */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.kodawari1{
+    border-radius:10px;
+    background-color: rgb(255, 242, 245);
+    margin-top: 5%;
+    margin-bottom: 0.9%;
+    padding: 2%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.text-1{
+    font-size: 18px;
+}
+
+.huta{
+    margin-top: 100px;
+    height: 200px;
+    color: rgb(43, 10, 5);
+}
