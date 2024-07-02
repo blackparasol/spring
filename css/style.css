@@ -438,10 +438,9 @@ overflow-x: hidden;
 }
 
 .logoimg img{
+    overflow-x: hidden;
     max-width:100%;
-    height: auto;
-    border-radius:20px;
-    padding: 1.5%; 
+    width: auto;
 }
 
 .logotextbox{
@@ -480,7 +479,7 @@ overflow-x: hidden;
     .logoimg img{
         max-width:100%;
         width: auto;
-        border-radius:20px;
+        padding: 0%; 
     }
 
     .logotext{
@@ -527,12 +526,13 @@ overflow-x: hidden;
     margin-left: 1%;
     padding: 2%;
     width: 700px;
-    display:  auto;
+    display:  flex;
     align-items: center;
 }
 
 .otherdtext{
     font-size: 18px;
+
 }
 
 .otherHTMLs{
@@ -577,6 +577,7 @@ overflow-x: hidden;
 }
 
 .huta{
+    max-width: 100%;
      margin-top: 200px;
      height: 200px;
      color: rgb(43, 10, 5);
