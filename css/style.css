@@ -1,6 +1,7 @@
 img { max-width:100%;}
 
 body{
+    box-sizing: border-box;
     background-image:url('../img/back.png');
     background-color: white;
     background-size: cover;
@@ -15,16 +16,18 @@ overflow-x: hidden;
     font-weight: 400;
     font-style: normal;
     color:brown !important;
+    box-sizing: border-box;
       }
 
 .navbar{
+    box-sizing: border-box;
     position: sticky !important;
     top: 0;
     justify-content: space-between;
     background-color: pink;
     padding: 10px !important;
     z-index: 9999;
-
+    width: 100%;
 }
 
 .navbar-brand img{
@@ -44,6 +47,7 @@ overflow-x: hidden;
 }
 
 .collapse {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -53,11 +57,14 @@ overflow-x: hidden;
 }
 
 .main{
-    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
     padding-bottom: 5%;
 }
 
 .main-sumaho{
+    width: 100%;
+    box-sizing: border-box;
     display:none
 }
 
@@ -73,6 +80,7 @@ overflow-x: hidden;
     }
 
     .main{
+        box-sizing: border-box;
         max-width:100%;
         width: 100%;
         padding-bottom: 5%;
@@ -80,6 +88,7 @@ overflow-x: hidden;
     }
     
     .main-sumaho{
+        box-sizing: border-box;
         max-width:100%;
         width: 100%;
         display: flex;
@@ -99,49 +108,59 @@ overflow-x: hidden;
 
 .website{
     /*background-color: chocolate;*/
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .website1{
-    height: 350px;
-    width: 350px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
     margin-left: 1%;
 }
 
 .website1 img{
+    box-sizing: border-box;
     border-radius:5px 30px 5px 30px;
     padding: 3%;
 }
 
 .website2{
-    height: 350px;
-    width: 350px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
 }
 
 .website2 img{
+    box-sizing: border-box;
     border-radius:5px 30px 5px 30px;
     padding: 3%;
 }
 
 .website3{
-    height: 350px;
-    width: 350px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
 }
 
 .website3 img{
+    box-sizing: border-box;
     border-radius:5px 30px 5px 30px;
     padding: 3%;
 }
 
 .website4{
-    height: 350px;
-    width: 350px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 350px;
     margin-right: 1%;
 }
 
 .website4 img{
+    box-sizing: border-box;
     border-radius:5px 30px 5px 30px;
     padding: 3%;
 }
@@ -150,6 +169,7 @@ overflow-x: hidden;
 
     .website{
         /*background-color: chocolate;*/
+        box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -206,17 +226,21 @@ overflow-x: hidden;
 
 .mmd{
     /*background-color: aquamarine;*/
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
+    width: 100%;
 }
 
 .mmdimg img{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     border-radius:20px;
     padding: 1.5%; 
 }
 
 .mmdtextbox{
+    box-sizing: border-box;
     border-radius:10px;
     background-color: rgb(255, 242, 245);
     margin-top: 0.9%;
@@ -242,6 +266,7 @@ overflow-x: hidden;
 @media (max-width:991.98px) {
     .mmd{
         /*background-color: aquamarine;*/
+        box-sizing: border-box;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -255,6 +280,7 @@ overflow-x: hidden;
     }
 
     .mmdtextbox{
+        box-sizing: border-box;
         border-radius:10px;
         background-color: rgb(255, 242, 245);
         margin-top: 0.9%;
@@ -281,18 +307,22 @@ overflow-x: hidden;
 }
 
 .illust{
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 .illustimg img{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     border-radius:20px;
     padding: 1.5%; 
 }
 
 .illusttextbox{
+    box-sizing: border-box;
     border-radius:10px;
     background-color: rgb(255, 242, 245);
     margin-top: 0.9%;
@@ -318,6 +348,7 @@ overflow-x: hidden;
 @media (max-width:991.98px) {
     .illust{
         /*background-color: aquamarine;*/
+        box-sizing: border-box;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -331,6 +362,7 @@ overflow-x: hidden;
     }
 
     .illusttextbox{
+        box-sizing: border-box;
         border-radius:10px;
         background-color: rgb(255, 242, 245);
         margin-top: 0.9%;
@@ -357,17 +389,21 @@ overflow-x: hidden;
 }
 
 .live2d{
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
+    width: 100%;
 }
 
 .live2dimg img{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     border-radius:20px;
     padding: 1.5%; 
 }
 
 .live2dtextbox{
+    box-sizing: border-box;
     border-radius:10px;
     background-color: rgb(255, 242, 245);
     margin-top: 0.9%;
@@ -392,6 +428,7 @@ overflow-x: hidden;
 
 @media (max-width:991.98px) {
     .live2d{
+        box-sizing: border-box;
         /*background-color: aquamarine;*/
         display: flex;
         justify-content: flex-start;
@@ -435,6 +472,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
+    width: 100%;
 }
 
 .logoimg img{
@@ -469,6 +507,7 @@ overflow-x: hidden;
 @media (max-width:991.98px) {
     .logo{
         /*background-color: aquamarine;*/
+        box-sizing: border-box;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -510,10 +549,12 @@ overflow-x: hidden;
 .other{
     display: flex;
     justify-content: flex-start;
+    width: 100%;
 }
 
 .otherimg img{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     border-radius:20px;
     padding: 1.5%; 
 }
@@ -545,6 +586,7 @@ overflow-x: hidden;
 @media (max-width:991.98px) {
     .other{
         /*background-color: aquamarine;*/
+        box-sizing: border-box;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
