@@ -193,25 +193,29 @@ overflow-x: hidden;
     
     .website1 img{
         border-radius:5px 30px 5px 30px;
-        padding: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
     
     
     .website2 img{
         border-radius:5px 30px 5px 30px;
-        padding: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
     
     
     .website3 img{
         border-radius:5px 30px 5px 30px;
-        padding: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 
     
     .website4 img{
         border-radius:5px 30px 5px 30px;
-        padding: 3%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
 
 }
@@ -292,8 +296,7 @@ overflow-x: hidden;
     }
 
     .mmdimg img{
-        max-width:100%;
-        width: auto;
+        width: 100%;
         border-radius:20px;
     }
 }
@@ -315,7 +318,6 @@ overflow-x: hidden;
 }
 
 .illustimg img{
-    max-width: 1200px;
     width: 100%;
     border-radius:20px;
     padding: 1.5%; 
@@ -368,7 +370,7 @@ overflow-x: hidden;
         margin-top: 0.9%;
         margin-bottom: 0.9%;
         padding: 2%;
-        width:  auto;
+        width: auto;
         display: flex;
         align-items: center;
     }
@@ -488,7 +490,7 @@ overflow-x: hidden;
     margin-bottom: 0.9%;
     margin-left: 1%;
     padding: 2%;
-    width:  auto;
+    width:  100%;
     display: flex;
     align-items: center;
 }
@@ -610,7 +612,8 @@ overflow-x: hidden;
         background-color: rgb(255, 242, 245);
         margin-top: 0.9%;
         margin-bottom: 0.9%;
-        padding: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
         width: auto;
         display:  auto;
         align-items: center;
@@ -623,4 +626,12 @@ overflow-x: hidden;
      margin-top: 200px;
      height: 200px;
      color: rgb(43, 10, 5);
+}
+
+.aos-animate{
+    margin: 0%;
+}
+
+.flip-up{
+    margin: 0%;
 }
