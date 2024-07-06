@@ -14,8 +14,6 @@ background-attachment : fixed;
     font-weight: 400;
     font-style: normal;
     color:brown !important;
-    position: sticky !important;
-    top: 0;
     box-sizing: border-box;
     contain: paint;
 }
@@ -24,6 +22,8 @@ background-attachment : fixed;
     box-sizing: border-box;
     justify-content: space-between;
     background-color: pink;
+    position: sticky !important;
+    top: 0;
     padding: 10px !important;
     z-index: 9999;
     width: 100%;
