@@ -23,11 +23,14 @@ body{
       }
 
 .navbar{
-    position: sticky !important;
-    top: 0;
+    box-sizing: border-box;
     justify-content: space-between;
     background-color: pink;
+    position: sticky !important;
+    top: 0;
     padding: 10px !important;
+    z-index: 9999;
+    width: 100%;
 }
 
 .navbar-brand img{
